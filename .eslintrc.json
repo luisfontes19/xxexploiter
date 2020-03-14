@@ -1,0 +1,36 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "env": {
+        "node": true,
+        "es6": true,
+        "commonjs": true,
+        "mocha": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "ignorePatterns": [
+        "**/*.js"
+    ],
+    "rules": {
+        "block-scoped-var": "error",
+        "eqeqeq": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "quotes": "off",
+        "prettier": "off",
+        "no-console": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "no-explicit-any": "off",
+        "@typescript-eslint/type-annotation-spacing": "off",
+        "semi": "error"
+    }
+}
